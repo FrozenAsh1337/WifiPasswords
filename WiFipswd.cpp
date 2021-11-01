@@ -6,7 +6,7 @@ int main()
 {
 	int line_count=0;
 	char* ID;
-	std::string name,pwd,line,cmd;
+	std::string line,cmd;
 	std::vector<std::string> names={},pwds={};
 	std::ifstream dataRead;
 	system("netsh wlan show profiles | findstr -r -s -i -m -c:\"\\<    All User Profile\\>\">Wifi_Passwords.txt");
